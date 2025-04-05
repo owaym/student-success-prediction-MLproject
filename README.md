@@ -1,25 +1,61 @@
-# student-success-prediction-MLproject
-Education is an important part of our lives and
-even during pandemic we continued getting the education through online or offline resources.   Moreover, the recent advances has been influential in
-education field and it has become essential for the
-institutions to adapt to these changes. The aim of
-this paper is to present the results of a project done
-by the researchers given about. We have used an
-public dataset which has been used in different articles. The aim of the project was to answer the
-questions if it is possible to predict the students’
-success based on the features collected through
-Open University (OU) and if the demographics of
-the students can be used to predict their achievement. The dataset consists of 7 different courses
-which are presented to the students via online platforms. We used this dataset and tried to predict
-students’ success. The model was trained by using
-Python 3.0. We have implemented different types
-of algorithms to see how the performance changes.
-The algorithms used were Random Forest, Decision Tree, SVM, FeedForward Neural Network, K
-Nearest Neighbour, Gradient Boosting (XGBoost)
-and Naïve Bayes. Random forest was the best performing algorithm while the performance of Naïve
-Bayes was poor. The dataset had many missing
-values and as we also know the student’s success is
-dependent on many different factors. We hope that
-further research on student success prediction will
-contribute to the improvement or development of
-educational technology systems.
+# Student Success Prediction in Education
+
+## Overview
+
+Education plays a crucial role in our lives, and even during the pandemic, we continued to receive education through both online and offline resources. Recent advancements in educational technologies have greatly influenced the field of education, and it has become essential for institutions to adapt to these changes.
+
+The purpose of this project was to explore whether it is possible to predict student success based on features collected through the Open University (OU) dataset. Additionally, we aimed to investigate whether the demographics of students can be used to predict their achievements.
+
+## Dataset
+
+The dataset consists of 7 different courses presented to students via online platforms. This publicly available dataset has been used in various research articles, and for this project, we leveraged it to predict students' success. 
+
+### Key Features of the Dataset:
+- Data related to student demographics.
+- Features from online courses, including course performance indicators.
+
+## Objective
+
+The main goal of the project was to:
+- Predict students' success using demographic features and course performance data.
+- Evaluate the impact of various algorithms on prediction accuracy.
+
+## Methodology
+
+The model was built using **Python 3.0**. Various machine learning algorithms were implemented to predict students' success and compare their performance:
+
+- **Random Forest**
+- **Decision Tree**
+- **Support Vector Machine (SVM)**
+- **FeedForward Neural Network**
+- **K-Nearest Neighbors (KNN)**
+- **Gradient Boosting (XGBoost)**
+- **Naïve Bayes**
+
+### Algorithm Performance:
+- **Best performing algorithm:** Random Forest.
+- **Poorest performing algorithm:** Naïve Bayes.
+
+## Challenges
+
+The dataset had several missing values, which posed challenges during the model training process. Additionally, predicting student success is inherently complex, as many factors influence the outcomes, such as personal, academic, and external factors.
+
+## Conclusion
+
+The results of this project suggest that it is indeed possible to predict student success based on course data and demographics. While the Random Forest model showed the best performance, further research is required to refine the predictions, especially considering the complexity of student success. We hope that further research in this area will contribute to the improvement and development of educational technology systems.
+
+## Future Work
+
+- Improve data preprocessing and handling of missing values.
+- Investigate the inclusion of more complex features or external factors.
+- Explore other machine learning models and their combinations for better prediction.
+
+## Dependencies
+
+- Python 3.0
+- Libraries: `scikit-learn`, `pandas`, `numpy`, `matplotlib`, `xgboost`, etc.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
