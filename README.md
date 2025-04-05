@@ -1,6 +1,6 @@
 # student-success-prediction-MLproject
 Education is an important part of our lives and
-even during pandemic we continued getting the education through online or offline resources. Moreover, the recent advances has been influential in
+even during pandemic we continued getting the education through online or offline resources.   Moreover, the recent advances has been influential in
 education field and it has become essential for the
 institutions to adapt to these changes. The aim of
 this paper is to present the results of a project done
